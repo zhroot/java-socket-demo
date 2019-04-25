@@ -82,7 +82,7 @@ class ServerThread implements Runnable {
 
 }
 
-class Server {
+public class Server {
     private final static int PORT = 23333;
     HashSet<ServerThread> clients = new HashSet<ServerThread>();
     public void run(){
